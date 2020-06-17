@@ -1,0 +1,162 @@
+.mainImgDiv {
+    text-align: center; 
+}
+
+.mainImg {
+    width: 75%;
+    height: 445px;
+}
+
+img.medical {
+    height: 150px;
+    width: 150px;
+}
+
+.medDiv {
+    display: flex;
+    justify-content: center;  
+    justify-content: space-around
+}
+
+
+
+
+.medical {
+    height: 350px;
+    width: 350px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-weight: 400;
+}
+
+img.medical {
+    width: 475px;
+    height: 425px;
+   
+}
+
+h2{
+    text-align: center;
+}
+
+.schoolDiv {
+    display: flex;
+    justify-content: center;  
+    justify-content: space-around
+}
+
+.school {
+    height: 350px;
+    width: 350px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-weight: 400;
+}
+
+img.school {
+    width: 475px;
+    height: 425px;
+   
+}
+
+button {
+    color: green;
+    border-color: green;
+    background-color: white;
+    border-radius: 12px;
+    align-items: flex-end;
+    
+}
+
+.logo {
+    text-align: center;
+    margin-top: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: white;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background-color:white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: white;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: black;
+  }
+
+  p {
+    font-family: 'Poppins';
+    font-weight: 200;
+  }
+
+  .moto {
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  button .join{
+      align-items: center;
+  }
+
+
+
+
+
+.contactUs {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* .contactForm {
+    justify-content: right;
+    width: 600px;
+} */
+
+/* .form-group{
+    display: inline-block;
+} */
+
+.contactForm {
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    /* margin-left: 400px;
+    margin-right: 400px; */
+}
+
+div .row {
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+div .submitBtn  {
+    text-align: center;
+}
+
+
+
