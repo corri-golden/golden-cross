@@ -1,3 +1,7 @@
+body {
+    background: white;
+}
+
 .mainImgDiv {
     text-align: center; 
 }
@@ -15,15 +19,13 @@ img.medical {
 .medDiv {
     display: flex;
     justify-content: center;  
-    justify-content: space-around
+    justify-content: space-around;
+    align-items: center
 }
-
-
-
 
 .medical {
     height: 350px;
-    width: 350px;
+    width: 519px;
     font-family: 'Poppins', sans-serif;
     margin-top: 150px;
     margin-bottom: 150px;
@@ -31,24 +33,24 @@ img.medical {
 }
 
 img.medical {
-    width: 475px;
-    height: 425px;
+    height: 415px;
+    width: 519px;
    
 }
 
-h2{
-    text-align: center;
-}
+
 
 .schoolDiv {
     display: flex;
     justify-content: center;  
-    justify-content: space-around
+    justify-content: space-around;
+    align-items: center;
+   
 }
 
 .school {
-    height: 350px;
-    width: 350px;
+    height: 415px;
+    width: 519px;
     font-family: 'Poppins', sans-serif;
     margin-top: 150px;
     margin-bottom: 150px;
@@ -58,6 +60,36 @@ h2{
 img.school {
     width: 475px;
     height: 425px;
+   
+}
+
+img.mother {
+    height: 150px;
+    width: 150px;
+}
+
+.motherDiv {
+    display: flex;
+    justify-content: center;  
+    justify-content: space-around;
+    align-items: center
+}
+
+
+
+
+.mother {
+    height: 350px;
+    width: 519px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-weight: 400;
+}
+
+img.mother {
+    height: 415px;
+    width: 519px;
    
 }
 
@@ -71,8 +103,17 @@ button {
 }
 
 .logo {
-    text-align: center;
+    /* text-align: center;
     margin-top: 100px;
+    width: 330x;
+    height: 300px;
+    margin: 0 auto;
+    align-items: center; */
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
 }
 
 ul {
@@ -88,15 +129,7 @@ ul {
     float: right;
   }
   
-  li a {
-    display: block;
-    color:black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    background-color:white;
-  }
+ 
   
   li a:hover:not(.active) {
     background-color: white;
@@ -117,28 +150,12 @@ ul {
       font-family: 'Poppins', sans-serif;
   }
 
-  button .join{
-      align-items: center;
-  }
-
-
-
-
-
 .contactUs {
     margin-top: 50px;
     text-align: center;
     margin-bottom: 100px;
 }
 
-/* .contactForm {
-    justify-content: right;
-    width: 600px;
-} */
-
-/* .form-group{
-    display: inline-block;
-} */
 
 .contactForm {
     justify-content: center;
@@ -160,3 +177,44 @@ div .submitBtn  {
 
 
 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F2F2F2
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    /* color: white; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+ 
+
+button .join{
+    margin: auto;
+    width: 50%;
+    color: darkgreen;
+}
+
+h2{
+    text-align: center;
+}
+
+.join {
+    margin: auto;
+    display: block;
+}
+
+a {
+    color: green;
+}

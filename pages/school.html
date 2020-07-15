@@ -7,42 +7,310 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- <link rel="shortcut icon" href="favicon/favicon.ico">
     <link rel="icon" type="image/gif" href="favicon/animated_favicon1.gif"> -->
-    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="../src/styles/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
     <script type="module" src="./src/scripts/main.js"></script> -->
+
 </head>
 
 <body>
     <header>
-        <nav class="nav">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="pages/contactUs.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <ul>
+          <li><a href="../index.html">Golden Cross Logistics</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./contactUs.html">Contact Us</a></li>
+        </ul>
     </header>
-    <form action="https://formspree.io/seedofabba@yahoo.com" method="POST">
-        <label>
-            Name
-            <input class="name" type="text">
-        </label>
-        <label>
-            Email Address
-            <input class="email" type="text">
-        </label>
-        <label>
-            Phone Number
-            <input class="phone" type="number">
-        </label>
-        <label>
-            Message
-            <textArea class="message" type="text"></textArea>
-        </label>
-    </form>
-    <div class="status">
-
+   
+   
+    <!-- <header>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactUs.html">Contact Us</a>
+          </li>
+        </ul>
+    </header> -->
+    <div class="contactUs">
+    <h1>Join the Team</h1>
+    <hr style="width:20%">
     </div>
-    <button class="submit" type="submit">Submit</button>
+    
+    <body>
+    <form action="https://formspree.io/seedofabba@yahoo.com" method="POST">
+        <div>
+        <div class="row">  
+        <div class="form-group col-lg-5">
+                <label for="exampleFormControlInput1">First Name</label>
+                <input type="name" name="first name" class="form-control" id="exampleFormControlInput1">            
+            </div>
+        </div>  
+
+        <div>
+        <div class="row">
+            <div class="form-group col-lg-5">
+                <label for="exampleFormControlInput1">Last Name</label>
+                <input type="text" name="last name" class="form-control" id="exampleFormControlInput1">
+            </div>
+        </div>
+           
+        <div>
+        <div class="row">
+            <div class="form-group col-lg-5">
+                <label for="exampleFormControlInput1">Phone Number</label>
+                <input type="number" name="phone number" class="form-control" id="exampleFormControlInput1">
+            </div>
+        </div>
+        
+       
+        <div>
+            <div class="row">
+            <div class="form-group col-lg-5">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" name="email address" class="form-control" id="exampleFormControlInput1">
+            </div>
+        </div>
+        
+        <div>
+            <div class="row">
+            <div class="form-group col-lg-5">
+              <label for="exampleFormControlTextarea1">Address</label>
+              <input class="form-control" name="address" id="exampleFormControlTextarea1" rows="3">
+            </div>     
+        </div>
+
+        <div>
+            <div class="row">
+            <div class="form-group col-lg-5">
+                <label for="exampleFormControlTextarea1">Address 2</label>
+                <input class="form-control" name="address2" id="exampleFormControlTextarea1" rows="3"> 
+              </div>
+        </div>
+
+        <div>
+            <div class="row">
+              <div class="form-group col-lg-5">
+                <label for="exampleFormControlTextarea1">City</label>
+                <input class="form-control" name="city" id="exampleFormControlTextarea1" rows="3">
+            </div> 
+        </div>
+
+        <div>
+            <div class="row">
+              <div class="form-group col-lg-5">
+                <label for="exampleFormControlTextarea1">State:</label>
+                <select id="state" name="state">
+                    <option value="" selected="selected">Select a State</option>
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="DC">District Of Columbia</option>
+                    <option value="FL">Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="ID">Idaho</option>
+                    <option value="IL">Illinois</option>
+                    <option value="IN">Indiana</option>
+                    <option value="IA">Iowa</option>
+                    <option value="KS">Kansas</option>
+                    <option value="KY">Kentucky</option>
+                    <option value="LA">Louisiana</option>
+                    <option value="ME">Maine</option>
+                    <option value="MD">Maryland</option>
+                    <option value="MA">Massachusetts</option>
+                    <option value="MI">Michigan</option>
+                    <option value="MN">Minnesota</option>
+                    <option value="MS">Mississippi</option>
+                    <option value="MO">Missouri</option>
+                    <option value="MT">Montana</option>
+                    <option value="NE">Nebraska</option>
+                    <option value="NV">Nevada</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="NM">New Mexico</option>
+                    <option value="NY">New York</option>
+                    <option value="NC">North Carolina</option>
+                    <option value="ND">North Dakota</option>
+                    <option value="OH">Ohio</option>
+                    <option value="OK">Oklahoma</option>
+                    <option value="OR">Oregon</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="RI">Rhode Island</option>
+                    <option value="SC">South Carolina</option>
+                    <option value="SD">South Dakota</option>
+                    <option value="TN">Tennessee</option>
+                    <option value="TX">Texas</option>
+                    <option value="UT">Utah</option>
+                    <option value="VT">Vermont</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="WV">West Virginia</option>
+                    <option value="WI">Wisconsin</option>
+                    <option value="WY">Wyoming</option>
+                  </select>
+              </div>
+            </div>
+
+            <div>
+                <div class="row">
+              <div class="form-group col-lg-5">
+                <label for="exampleFormControlTextarea1">Zip Code</label>
+                <input type="number" class="form-control" name="address" id="exampleFormControlTextarea1" rows="3">
+              </div>    
+            </div>
+
+            <div>
+                <div class="row">
+                <div class="form-group col-lg-5">
+              <!-- <form action="/action_page.php"> -->
+                <p>Are You Legally Eligible for Employment in this County:</p>
+                <input type="radio" id="yes" name="eligible" value="yes">
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="eligible" value="no">
+                <label for="no">No</label><br>
+                </div>
+            </div>
+
+            <div>
+                <div class="row">
+                <div class="form-group col-lg-5">
+                <p>Date you are available for Work</p>
+                <input type="date" id="date" name="date">
+            </div>
+            </div>
+
+            <div>
+                <div class="row">
+                <div class="form-group col-lg-5">
+                <p>Type of Employment Desired:</p>
+                <input type="radio" id="part time" name="employment" value="part time">
+                <label for="part time">Part Time</label><br>
+                <input type="radio" id="full time" name="employment" value="full time">
+                <label for="full time">Full Time</label><br>
+                <input type="radio" id="temporary" name="employment" value="temporary">
+                <label for="temporary">Temporary</label><br>
+            </div>
+            </div>
+
+            <div>
+                <div class="row">
+                <div class="form-group col-lg-5">
+                <p>Have you ever pleaded or been convicted of a felony or misdemeanor:</p><p><small>(Please note that a conviction will not automatically exclude you from consideration for employment.)</small></p>
+                <input type="radio" id="yes" name="convicted" value="yes">
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="convicted" value="no">
+                <label for="no">No</label><br>
+                <p>If yes, please explain</p>
+                <textarea class="form-control" name="explanation" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+            </div>
+
+            <div>
+                <div class="row">
+                <div class="form-group col-lg-5">
+                <p>Do you have a Driver's License Number:</p>
+                <input type="radio" id="yes" name="license" value="yes">
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="license" value="no">
+                <label for="no">No</label><br>
+            
+            <label for="exampleFormControlTextarea1">State:</label>
+            <select id="state" name="stateDL">
+                <option value="" selected="selected">Select a State</option>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District Of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+              </select>
+            </div>
+            </div>
+
+            <div>
+                <div class="row">
+                <div class="form-group col-lg-5">
+                <p>Do you have a Driver's License Number with F Endorsement:</p>
+                <p><small>(Please note: Not having an F Endorsement will not exclude you for consideration of employment.)</small></p>
+                <input type="radio" id="yes" name="F Endorsement" value="yes">
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="F Endorsement" value="no">
+                <label for="no">No</label><br>
+            </div>
+            </div>
+
+            <div>
+                <div class="row">
+                <div class="submitBtn">
+                <!-- <button class="btn btn-success" type="submit">Submit</button> -->
+                <input type="submit" value="Send">
+            </div>
+            </div>
+        </form>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 </body>
 
 </html>
