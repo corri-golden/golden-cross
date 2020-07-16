@@ -1,3 +1,7 @@
+
+
+
+
 body {
     background: white;
 }
@@ -20,7 +24,8 @@ img.medical {
     display: flex;
     justify-content: center;  
     justify-content: space-around;
-    align-items: center
+    align-items: center;
+    background: #f2f2f2
 }
 
 .medical {
@@ -45,6 +50,7 @@ img.medical {
     justify-content: center;  
     justify-content: space-around;
     align-items: center;
+    
    
 }
 
@@ -72,7 +78,8 @@ img.mother {
     display: flex;
     justify-content: center;  
     justify-content: space-around;
-    align-items: center
+    align-items: center;
+    background: #f2f2f2
 }
 
 
@@ -102,18 +109,34 @@ button {
     
 }
 
-.logo {
+.name {
     /* text-align: center;
     margin-top: 100px;
     width: 330x;
     height: 300px;
     margin: 0 auto;
     align-items: center; */
-    display: block;
+  font-size: 56px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
 
+h1.name{
+
+}
+
+span{
+    font-style: italic;
+    color: green;
+}
+
+.logo {
+    width: 135px;
+    height: 95px;
 }
 
 ul {
@@ -183,7 +206,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #F2F2F2
+    background-color: white
   }
   
   li {
