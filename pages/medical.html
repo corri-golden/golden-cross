@@ -16,19 +16,25 @@
 
 <body>
     <header>
-        <ul>
-          <li><a href="../index.html">Golden Cross Logistics</a></li>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="pages/contactUs.html">Contact Us</a></li>
-        </ul>
+        <div>
+            <ul>
+            <a href="../index.html"><img src="../src/logos/logo plain.jpg" width="97.98" height="94" alt="pic"></a>
+                <!-- <li style="float:left"><a href="index.html">GOLDEN CROSS LOGISTICS</a></li> -->
+              <li><a class="contact" href="pages/medical.html">JOIN THE TEAM</a></li>
+              <!-- <li><a href="index.html">MOTHERS</a></li>
+              <li><a href="index.html">SCHOOL</a></li>
+              <li><a href="index.html">MEDICAL</a></li> -->
+              <!-- <li><a href="#news">News</a></li> -->    
+            </ul>
+            </div>
     </header>
    
    
    
     <div class="contactUs">
-        <h1>Join the Team</h1>
+        <h1 class="headerMed">Join the Team</h1>
         <hr style="width:20%">
-        </div>
+    </div>
         
     <div>
         <div class="row">  
@@ -147,6 +153,8 @@
               </div>
             </div>
 
+            
+
             <div>
                 <div class="row">
               <div class="form-group col-lg-5">
@@ -167,13 +175,17 @@
                 </div>
             </div>
 
+            <hr style="width:40%">
+
             <div>
                 <div class="row">
                 <div class="form-group col-lg-5">
                 <p>Date you are available for Work</p>
                 <input type="date" id="date" name="date">
+                </div>
             </div>
-            </div>
+
+            <hr style="width:40%">
 
             <div>
                 <div class="row">
@@ -185,13 +197,15 @@
                 <label for="full time">Full Time</label><br>
                 <input type="radio" id="temporary" name="employment" value="temporary">
                 <label for="temporary">Temporary</label><br>
+                </div>
             </div>
-            </div>
+
+            <hr style="width:40%">
 
             <div>
                 <div class="row">
                 <div class="form-group col-lg-5">
-                <p>Have you ever pleaded or been convicted of a felony or misdemeanor:</p><p><small>(Please note that a conviction will not automatically exclude you from consideration for employment.)</small></p>
+                <p>Have you ever pleaded or been convicted of a felony or misdemeanor: (Please note that a conviction will not automatically exclude you from consideration for employment.)</p>
                 <input type="radio" id="yes" name="convicted" value="yes">
                 <label for="yes">Yes</label><br>
                 <input type="radio" id="no" name="convicted" value="no">
@@ -200,6 +214,8 @@
                 <textarea class="form-control" name="explanation" id="exampleFormControlTextarea1" rows="5"></textarea>
                 </div>
             </div>
+
+            <hr style="width:40%">
 
             <div>
                 <div class="row">
@@ -265,36 +281,32 @@
                 <option value="WI">Wisconsin</option>
                 <option value="WY">Wyoming</option>
               </select>
+                </div>
             </div>
-            </div>
+
+            <hr style="width:40%">
 
             <div>
                 <div class="row">
                 <div class="form-group col-lg-5">
-                <p>Do you have a Driver's License Number with F Endorsement:</p>
-                <p><small>(Please note: Not having an F Endorsement will not exclude you for consideration of employment.)</small></p>
+                <p>Do you have a Driver's License Number with F Endorsement: (Please note: Not having an F Endorsement will not exclude you for consideration of employment.)</p>
                 <input type="radio" id="yes" name="F Endorsement" value="yes">
                 <label for="yes">Yes</label><br>
                 <input type="radio" id="no" name="F Endorsement" value="no">
                 <label for="no">No</label><br>
-            </div>
+                </div>
             </div>
 
-            <div>
-                <div class="row">
-                <div class="submitBtn">
+            <hr style="width:40%">
+
+            <!-- <div> -->
+                <!-- <div class="row"> -->
+            <div class="submitBtn">
                 <!-- <button class="btn btn-success" type="submit">Submit</button> -->
-                <input type="submit" value="Send">
+                <button class="submitBtn" type="submit" value="Send">Submit</button>
             </div>
             </div>
+        </div>
         </form>
-        
-      
-        
-        
-        
-        
-        
-</body>
-
+    </body>
 </html>

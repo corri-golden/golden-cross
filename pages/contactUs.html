@@ -16,23 +16,23 @@
 
 <body>
     <header>
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active" href="../index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contactUs.html">Contact Us</a>
-          </li>
-        </ul>
+        <div>
+            <ul>
+            <a href="../index.html"><img src="../src/logos/logo plain.jpg" width="97.98" height="94" alt="pic"></a>
+                <!-- <li style="float:left"><a href="index.html">GOLDEN CROSS LOGISTICS</a></li> -->
+              <li><a class="contact" href="./medical.html">JOIN THE TEAM</a></li>  
+            </ul>
+            </div>
     </header>
     <div class="contactUs">
     <h1>Contact Us</h1>
-    <hr style="width:20%">
+    <hr class="lineContact" style="width:10%">
     </div>
     
     
     <form action="https://formspree.io/seedofabba@yahoo.com" method="POST">
-        <div>
+        
+        <div class="container">
         <div class="row">  
         <div class="form-group col-lg-5">
                 <label for="exampleFormControlInput1">First Name</label>
@@ -71,11 +71,14 @@
               <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
               
             </div>
+        </div>
+            
+        <div class="submitBtn">
+            <button class="submitBtn" type="submit" value="Send">Submit</button>
+        </div>
+        
             </div>
-            <div class="submitBtn">
-            <!-- <button class="btn btn-success" type="submit">Submit</button> -->
-            <input type="submit" value="Send">
-            </div>
+        </div>
         </form>
         
         
