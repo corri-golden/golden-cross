@@ -228,6 +228,10 @@ img.mother {
     margin-bottom: 75px;
 }
 
+.lineContact{
+    width: 60%
+}
+
 select {
     font-family: 'Poppins', sans-serif;
     font-weight: 100
@@ -265,9 +269,151 @@ div .submitBtn  {
     font-weight: 400;
 } */
 
+.joinHr {
+    width: 60%
+}
 
 
- /*** for website ***/
+
+/**** tablet ****/ 
+@media only screen and (min-width: 768px) {
+    .direct {
+        display: block
+    }
+
+    .mainImg {
+        width: 100%;
+        height: 375px;
+       
+    }
+
+    .name {
+    font-size: 50px;
+    margin-top: 75px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.hrMain{
+    width: 70%
+}
+
+/**** tablet medical div ****/
+
+.medDiv {
+    display: flex;
+    justify-content: center;  
+    justify-content: space-around;
+    align-items: center;
+    background: #f2f2f2
+}
+
+.medical {
+    height: 325px;
+    width: 380px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-weight: 400;
+}
+
+div .medical {
+    margin-top: 35px
+}
+
+img.medical {
+    height: 325px;
+    width: 315px;
+    box-shadow: 2px 2px 5px grey;
+    margin-top: 135px
+}
+
+/*** tablet school Div ***/
+    .schoolDiv {
+    display: flex;
+    justify-content: center;  
+    justify-content: space-around;
+    align-items: center;
+    
+   
+}
+
+.school {
+    height: 415px;
+    width: 519px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-weight: 400;
+}
+
+#medicalImg {
+    display: none
+}
+
+img.school {
+    display: block;
+    width: 315px;
+    height: 325px;
+    box-shadow: 2px 2px 5px grey;
+   
+}
+
+/*** tablet mother div ***/
+img.mother {
+    height: 150px;
+    width: 150px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.motherDiv {
+    display: flex;
+    justify-content: center;  
+    justify-content: space-around;
+    align-items: center;
+    background: #f2f2f2
+}
+
+.mother {
+    height: 325px;
+    width: 380px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-weight: 400;
+}
+
+img.mother {
+    height: 325px;
+    width: 315px;
+   
+}
+
+/**** tablet contactUs ****/
+div.container {
+    padding-right: 75px;
+    padding-left: 75px
+}
+
+.lineContact{
+    width: 30%
+}
+
+div.formFormat{
+    padding-left: 75px;
+    padding-right: 75px
+}
+
+.joinHr {
+    width: 30%
+}
+
+}
+
+/*** for website ***/
+
 
 /* #icon {
     height: 92px;
