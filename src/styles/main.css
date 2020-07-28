@@ -1,19 +1,497 @@
 
 
 
-
 body {
     background: white;
 }
 
+
+.wrapper{
+    width: 100%
+}
+
+/* #icon {
+    height: 24px
+} */
+
+/**** navbar ****/
+
+/* navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #e7e7e7;
+  }
+  
+  li {
+    float: right
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 72px
+  }
+  
+
+  .logo {
+    width: 135px;
+    height: 95px;
+}
+
+a {
+    color: black !important;
+    margin-top: 20px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+a:hover {
+    color: green;
+    text-decoration: none;
+  }
+
+/***** forms ****/
+
+p {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 5 !important;
+    font-size: 16px;
+  }
+
+  select{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 5 !important;
+    font-size: 16px;
+}
+
+
+/***** mobile header *****/
+
+.contact{
+    border: solid 1px green; 
+    border-radius: 12px;
+    margin-right: 10px;
+    color: green;
+    height: 48px
+} 
+
+header{
+    width: 100%;
+    height: 96px
+}
+
+.direct{
+    display: none
+}
+
+
+/**** mobile images *****/
+/* .medical{
+    width: 100px
+}
+
+.mother{
+    width: 100px
+} */
+
+
+/***** main image *****/
 .mainImgDiv {
     text-align: center; 
+    width: 100%
 }
 
 .mainImg {
     width: 100%;
-    height: 445px;
+    height: 275px;
+   
 }
+
+/*** Title ****/
+
+.name {
+    font-size: 25px;
+    margin-top: 75px;
+    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+span{
+    font-style: italic;
+    color: green;
+}
+
+
+.hrMain{
+    margin-bottom: 75px;
+}
+
+.sectionTitle{
+    margin-top: 20px;
+    font-size: 25px
+}
+
+.sectionText{
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+/***** medical div *****/
+
+img.medical {
+    /* height: 150px;
+    width: 150px;
+    box-shadow: 2px 2px 5px grey; */
+    width: 100%
+}
+
+img.school {
+    display: none
+}
+
+div .medDiv {
+    background: #f2f2f2;
+    width: 100%;
+    height: 770px
+} 
+
+/* .medical {
+    height: 350px;
+    width: 519px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-weight: 400;
+}
+
+img.medical {
+    height: 415px;
+    width: 519px;
+   
+}  */
+
+/**** school div ***/
+
+.schoolDiv {
+    /* display: flex; */
+    /* justify-content: center;   */
+    /* justify-content: space-around;
+    align-items: center; */
+    width: 100%;
+    height: 760px
+    /* margin-top: 75px */
+}
+
+.school {
+    height: 415px;
+    width: 519px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-weight: 400;
+}
+
+img.school {
+    width: 475px;
+    height: 425px;
+   
+}
+
+img.mother {
+    height: 150px;
+    width: 150px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.motherDiv {
+    background: #f2f2f2;
+    width: 100%;
+    height: 670px
+}
+
+/* .mother {
+    height: 350px;
+    width: 519px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-weight: 400;
+} */
+
+img.mother {
+    height: 415px;
+    width: 519px;
+   
+}
+
+/***** footer div *****/
+
+.footerDesign {
+    display: none
+}
+
+a.fa.fa-facebook {
+    display: none
+}
+
+.footerLogo {
+    display: none
+}
+
+
+/* .footer { */
+    /* left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: 300;
+    background-color: white */
+ /* } */
+
+.footerContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* display: flex; */
+    justify-content: center;  
+    align-items: center;
+    text-align: center
+    /* justify-content: space-evenly; */
+ }  
+
+
+.footerTop {
+    margin-top: 45px
+}
+
+.footerPortfolio {
+    margin-top: 25px
+}
+
+/* .vl {
+    border-left: 2px solid #f2f2f2;
+    height: 25opx;
+  } */
+
+  /* .column {
+    align-items: left;
+    text-align: left;
+} */
+
+.vl {
+    display: block
+}
+
+
+.contactUs {
+    margin-top: 75px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.lineContact{
+    width: 60%
+}
+
+select {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100
+}
+
+
+.contactForm {
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    /* margin-left: 400px;
+    margin-right: 400px; */
+}
+
+div .row {
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    /* border: 2px solid green */
+}
+
+div .submitBtn  {
+    text-align: center;
+}
+
+.formFormat {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* button .submitBtn{
+    width: 100%;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+} */
+
+.joinHr {
+    width: 60%
+}
+
+
+
+/**** tablet ****/ 
+@media only screen and (min-width: 768px) {
+    .direct {
+        display: block
+    }
+
+    .mainImg {
+        width: 100%;
+        height: 375px;
+       
+    }
+
+    .name {
+    font-size: 50px;
+    margin-top: 75px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.hrMain{
+    width: 70%
+}
+
+/**** tablet medical div ****/
+
+.medDiv {
+    display: flex;
+    justify-content: center;  
+    justify-content: space-around;
+    align-items: center;
+    background: #f2f2f2
+}
+
+.medical {
+    height: 325px;
+    width: 380px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-weight: 400;
+}
+
+div .medical {
+    margin-top: 35px
+}
+
+img.medical {
+    height: 325px;
+    width: 315px;
+    box-shadow: 2px 2px 5px grey;
+    margin-top: 135px
+}
+
+/*** tablet school Div ***/
+    .schoolDiv {
+    display: flex;
+    justify-content: center;  
+    justify-content: space-around;
+    align-items: center;
+    
+   
+}
+
+.school {
+    height: 415px;
+    width: 519px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-weight: 400;
+}
+
+#medicalImg {
+    display: none
+}
+
+img.school {
+    display: block;
+    width: 315px;
+    height: 325px;
+    box-shadow: 2px 2px 5px grey;
+   
+}
+
+/*** tablet mother div ***/
+img.mother {
+    height: 150px;
+    width: 150px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.motherDiv {
+    display: flex;
+    justify-content: center;  
+    justify-content: space-around;
+    align-items: center;
+    background: #f2f2f2
+}
+
+.mother {
+    height: 325px;
+    width: 380px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 75px;
+    margin-bottom: 150px;
+    font-weight: 400;
+}
+
+img.mother {
+    height: 325px;
+    width: 315px;
+   
+}
+
+/**** tablet contactUs ****/
+div.container {
+    padding-right: 75px;
+    padding-left: 75px
+}
+
+.lineContact{
+    width: 30%
+}
+
+div.formFormat{
+    padding-left: 75px;
+    padding-right: 75px
+}
+
+.joinHr {
+    width: 30%
+}
+
+}
+
+/*** for website ***/
+@media only screen and (min-width: 1000px) {
+    .mainImg {
+        width: 100%;
+        height: 445px;
+    }
+
+/***** medical div *****/
 
 img.medical {
     height: 150px;
@@ -44,7 +522,7 @@ img.medical {
    
 }
 
-
+/***** school div ******/
 
 .schoolDiv {
     display: flex;
@@ -70,6 +548,7 @@ img.school {
    
 }
 
+/****** strong babies div *******/
 img.mother {
     height: 150px;
     width: 150px;
@@ -83,19 +562,6 @@ img.mother {
     align-items: center;
     background: #f2f2f2
 }
-
-.contact{
-    border: solid 1px green;
-    border-radius: 12px;
-    margin-right: 10px;
-    color: green;
-    /* padding-bottom: 2px; */
-    /* padding-top: 2px; */
-    /* margin-top: 30px */
-}
-
-
-
 
 .mother {
     height: 350px;
@@ -112,94 +578,115 @@ img.mother {
    
 }
 
+/* footer */
 
+.footer{
+    margin-top: 10px
+} 
 
-.name {
-    /* text-align: center;
-    margin-top: 100px;
-    width: 330x;
-    height: 300px;
-    margin: 0 auto;
-    align-items: center; */
-  font-size: 56px;
-  margin-top: 75px;
-  
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.footerContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;  
+    justify-content: space-evenly;
 }
 
-span{
-    font-style: italic;
-    color: green;
-}
-
-
-
-/* navbar */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    border: 1px solid #e7e7e7;
-  }
-  
-  li {
-    float: right
-  }
-  
-  li a {
+.fafa-facebook-square {
     display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    height: 72px
-  }
-  
-  /* li a:hover:not(.active) {
-    background-color: white;
-  }
-  
-  li a.active {
-    color: white;
-    background-color: black;
-  } */
-
-  .logo {
-    width: 135px;
-    height: 95px;
+    width: 42px;
+    height: 42px;
 }
 
-a {
-    color: black !important;
-    margin-top: 20px;
-    font-weight: 300;
-    font-family: 'Poppins', sans-serif;
-
+.column {
+    align-items: left;
+    text-align: left;
 }
 
-a:hover {
-    color: green;
-    text-decoration: none;
-  }
-
-
-
-  p {
+h6 {
+    font-weight: 200;
+    margin-bottom: 0;
     font-family: 'Poppins', sans-serif !important;
-    font-weight: 50 !important;
-    font-size: 16px;
+
+}
+
+.footerLogo {
+    margin-bottom: 40px
+}
+
+.footerTop {
+    margin-top: 45px
+}
+
+.vl {
+    display: block;
+    border-left: 2px solid #f2f2f2;
+    height: 200px;
   }
 
-  .moto {
+.footerLine {
+    display: none
+}
+
+.footerDesign {
+    display: block
+}
+
+a.fa.fa-facebook {
+    display: block
+}
+
+.footerLogo {
+    display: block
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    /* .moto {
       text-align: center;
       font-family: 'Poppins', sans-serif;
-  }
+  } */
 
-.contactUs {
+
+
+
+  /* .contactUs {
     margin-top: 75px;
     text-align: center;
     margin-bottom: 75px;
@@ -217,7 +704,7 @@ select {
     margin-right: 200px;
     /* margin-left: 400px;
     margin-right: 400px; */
-}
+/* } */
 
 div .row {
     justify-content: center;
@@ -233,20 +720,36 @@ div .submitBtn  {
 }
 
 button.submitBtn{
-    width: 10%;
+    width: 40%;
+    height: 35px;
     margin-top: 25px;
+    margin-bottom: 65px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-}
+} */
 
-.form-control {
+/* .form-control {
     background-color:#f2f2f2;
-}
+} */
 
-input.form-control{
+.form-control:focus {
+    border-color: green;
+    box-shadow: none
+  }
+
+
+  input.form-control:focus {
+    border-color: green;
+    box-shadow: none
+  }
+
+
+
+
+  /* input.form-control{
     background-color:#f2f2f2;
  
-}
+} */
 
 
 
@@ -280,7 +783,7 @@ h1.headerMed{
 label{
     font-family: 'Poppins', sans-serif !important;
     font-size: 16px;
-    font-weight: 100
+    /* font-weight: 100 */
 }
 
 
@@ -294,8 +797,7 @@ label{
     background-color: blues;
 } */
 
-.footer {
-    /* position: fixed; */
+/* .footer {
     left: 0;
     bottom: 0;
     width: 100%;
@@ -304,22 +806,12 @@ label{
     text-align: center;
     font-weight: 300;
     background-color: white
- }
+ } */
 
- .hrMain{
-     margin-bottom: 75px;
- }
+ 
 
- #icon {
-    height: 92px;
- }
-
- a.contact{
-     height: 50px;
-     /* margin-top: 25px; */
-     padding-bottom: 25px;
-     color: green !important
- }
+ 
+ 
 
  button .joinAlt{
      background: #f2f2f2 !important;
@@ -353,21 +845,9 @@ div.form-group{
     margin-top: 16px
 }
 
-/* .container{
-    border: 2px solid green;
-    border-radius: 12px;
-    width: 800px;
-    padding: 50px 50px;
-    
-} */
 
-/* .container{
-    margin-top: 5px
-} */
 
-/* div .contactUs{
-    margin-bottom: 75px
-} */
+
 
 .pics{
     box-shadow: 10px 10px;
@@ -381,49 +861,6 @@ i {
 
 
 
-/* footer */
-
-/* .footer{
-    margin-top: 10px
-} */
-
-.footerContainer {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;  
-    justify-content: space-evenly;
-}
-
-.fafa-facebook-square {
-    width: 42px;
-    height: 42px;
-}
-
-.column {
-    align-items: left;
-    text-align: left;
-}
-
-h6 {
-    font-weight: 200;
-    margin-bottom: 0;
-    font-family: 'Poppins', sans-serif !important;
-
-}
-
-.footerLogo {
-    margin-bottom: 40px
-}
-
-.footerTop {
-    margin-top: 45px
-}
-
-.vl {
-    border-left: 2px solid #f2f2f2;
-    height: 25opx;
-  }
 
 
 
