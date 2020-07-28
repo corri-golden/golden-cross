@@ -10,7 +10,66 @@ body {
     width: 100%
 }
 
+/* #icon {
+    height: 24px
+} */
 
+/**** navbar ****/
+
+/* navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #e7e7e7;
+  }
+  
+  li {
+    float: right
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 72px
+  }
+  
+
+  .logo {
+    width: 135px;
+    height: 95px;
+}
+
+a {
+    color: black !important;
+    margin-top: 20px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+a:hover {
+    color: green;
+    text-decoration: none;
+  }
+
+/***** forms ****/
+
+p {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 5 !important;
+    font-size: 16px;
+  }
+
+  select{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 5 !important;
+    font-size: 16px;
+}
 
 
 /***** mobile header *****/
@@ -20,8 +79,8 @@ body {
     border-radius: 12px;
     margin-right: 10px;
     color: green;
+    height: 48px
 } 
-
 
 header{
     width: 100%;
@@ -65,6 +124,11 @@ header{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+}
+
+span{
+    font-style: italic;
+    color: green;
 }
 
 
@@ -176,6 +240,10 @@ img.mother {
     display: none
 }
 
+a.fa.fa-facebook {
+    display: none
+}
+
 .footerLogo {
     display: none
 }
@@ -220,6 +288,10 @@ img.mother {
     align-items: left;
     text-align: left;
 } */
+
+.vl {
+    display: block
+}
 
 
 .contactUs {
@@ -380,7 +452,7 @@ img.mother {
     height: 325px;
     width: 380px;
     font-family: 'Poppins', sans-serif;
-    margin-top: 150px;
+    margin-top: 75px;
     margin-bottom: 150px;
     font-weight: 400;
 }
@@ -413,65 +485,15 @@ div.formFormat{
 }
 
 /*** for website ***/
-
-
-/* #icon {
-    height: 92px;
- } */
-
- /* .contact{
-    border: solid 1px green;
-    border-radius: 12px;
-    margin-right: 10px;
-    color: green;
-} */
-
-/* .mainImgDiv {
-    text-align: center; 
-}
-
-.mainImg {
-    width: 100%;
-    height: 445px;
-}
-
-.hrMain{
-    margin-bottom: 75px;
-}
-
- #icon {
-     height: 92px
- } */
-
- /* .name {
-    font-size: 56px;
-    margin-top: 75px;
-    
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-} */
-
- a.contact{
-    height: 50px;
-    /* margin-top: 25px; */
-    padding-bottom: 25px;
-    color: green !important
-}
-
-.hrMain{
-    margin-bottom: 75px;
-}
-
-
-
-
-
+@media only screen and (min-width: 1000px) {
+    .mainImg {
+        width: 100%;
+        height: 445px;
+    }
 
 /***** medical div *****/
 
-/* img.medical {
+img.medical {
     height: 150px;
     width: 150px;
     box-shadow: 2px 2px 5px grey;
@@ -498,12 +520,11 @@ img.medical {
     height: 415px;
     width: 519px;
    
-} */
-
+}
 
 /***** school div ******/
 
-/* .schoolDiv {
+.schoolDiv {
     display: flex;
     justify-content: center;  
     justify-content: space-around;
@@ -525,14 +546,10 @@ img.school {
     width: 475px;
     height: 425px;
    
-} */
-
-
-
-
+}
 
 /****** strong babies div *******/
-/* img.mother {
+img.mother {
     height: 150px;
     width: 150px;
     box-shadow: 2px 2px 5px grey;
@@ -559,79 +576,107 @@ img.mother {
     height: 415px;
     width: 519px;
    
-} */
-
-
-
-
-
-
-span{
-    font-style: italic;
-    color: green;
 }
 
+/* footer */
 
+.footer{
+    margin-top: 10px
+} 
 
-/* navbar */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    border: 1px solid #e7e7e7;
-  }
-  
-  li {
-    float: right
-  }
-  
-  li a {
+.footerContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;  
+    justify-content: space-evenly;
+}
+
+.fafa-facebook-square {
     display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    height: 72px
+    width: 42px;
+    height: 42px;
+}
+
+.column {
+    align-items: left;
+    text-align: left;
+}
+
+h6 {
+    font-weight: 200;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+.footerLogo {
+    margin-bottom: 40px
+}
+
+.footerTop {
+    margin-top: 45px
+}
+
+.vl {
+    display: block;
+    border-left: 2px solid #f2f2f2;
+    height: 200px;
   }
+
+.footerLine {
+    display: none
+}
+
+.footerDesign {
+    display: block
+}
+
+a.fa.fa-facebook {
+    display: block
+}
+
+.footerLogo {
+    display: block
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
-
-  .logo {
-    width: 135px;
-    height: 95px;
-}
-
-a {
-    color: black !important;
-    margin-top: 20px;
-    font-weight: 300;
-    font-family: 'Poppins', sans-serif;
-
-}
-
-a:hover {
-    color: green;
-    text-decoration: none;
-  }
-
-
-
-
-
-
-
-
-  p {
-    font-family: 'Poppins', sans-serif !important;
-    font-weight: 5 !important;
-    font-size: 16px;
-  }
-
-  select{
-    font-family: 'Poppins', sans-serif !important;
-    font-weight: 5 !important;
-    font-size: 16px;
-}
 
     /* .moto {
       text-align: center;
@@ -816,49 +861,6 @@ i {
 
 
 
-/* footer */
-
-/* .footer{
-    margin-top: 10px
-} */
-
-/* .footerContainer {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;  
-    justify-content: space-evenly;
-}
-
-.fafa-facebook-square {
-    width: 42px;
-    height: 42px;
-}
-
-.column {
-    align-items: left;
-    text-align: left;
-}
-
-h6 {
-    font-weight: 200;
-    margin-bottom: 0;
-    font-family: 'Poppins', sans-serif !important;
-
-}
-
-.footerLogo {
-    margin-bottom: 40px
-}
-
-.footerTop {
-    margin-top: 45px
-}
-
-.vl {
-    border-left: 2px solid #f2f2f2;
-    height: 25opx;
-  } */
 
 
 
